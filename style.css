@@ -1,0 +1,307 @@
+    body {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .jumbotron {
+        background-image: url(imgs/slices/header_bg.jpg);
+        background-size: 100% 100%;
+        font-family: sans-serif;
+    }
+    
+    #topNav {
+        margin-top: -40px;
+    }
+    
+    #brandImage {
+        height: 40px;
+        width: 40px;
+        margin-left: 8px;
+    }
+    
+    .center-block {
+        padding-top: 40px;
+    }
+    
+    .display-6 {
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .jumbotron .my-4 {
+        width: 37%;
+        background-color: #FFFFFF;
+        margin-bottom: 50px;
+    }
+    
+    #companyInfo {
+        margin-top: 80px;
+    }
+    
+    .col-sm-4 .my-4 {
+        border-top: 8px solid #286191;
+        height: 10px;
+        margin: 7px auto;
+    }
+    
+    .col-sm-4 h3 {
+        color: #286191;
+        font-weight: 100;
+    }
+    
+    .col-sm-8 p {
+        font-size: 20px;
+        color: #3A5568;
+        font-weight: 200;
+    }
+    
+    #gridNav {
+        background-image: url(imgs/clients_bg.jpg);
+        background-size: 100% 100%;
+        margin-top: 100px;
+        padding-bottom: 55px;
+    }
+    
+    .container-title {
+        text-align: center;
+        padding: 50px;
+    }
+    
+    #gridNav h2 {
+        color: #FFFFFF
+    }
+    
+    .container-grid li {
+        display: inline-block;
+        padding: 7px;
+    }
+    
+    .container-grid img {
+        width: 220px;
+        height: 220px;
+        opacity: 0.95;
+    }
+    
+    .col-sm-7 {
+        color: #1E2F3E;
+    }
+    
+    .col-sm-7 h3 {
+        font-size: 40px;
+    }
+    
+    .col-sm-7 p {
+        font-weight: 300;
+        margin: 20px 0 15px 0;
+    }
+    
+    #contact a {
+        text-decoration: none;
+        color: #3A5568;
+        font-weight: bold;
+    }
+    
+    #contact {
+        padding: 70px 0 70px 0;
+        margin: 0 40px 0 40px;
+    }
+    
+    input {
+        background-color: #F2F3F3;
+        border: none;
+        border-bottom: 5px solid #E7ECEF;
+        display: block;
+        width: 350px;
+        padding: 10px 0 10px 5px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+    button {
+        margin-top: 20px;
+        border: none;
+        background-color: #286191;
+        color: #FFFFFF;
+        text-align: center;
+        width: 350px;
+        padding: 10px 0 10px 5px;
+    }
+    
+    .form {
+        background-color: #F2F3F3;
+        border: none;
+        border-bottom: 5px solid #E7ECEF;
+        display: block;
+        width: 350px;
+        padding: 10px 0 10px 5px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+    footer {
+        height: 70px;
+        width: 100%;
+        background-color: #0D171F;
+        text-align: center;
+    }
+    
+    .col-md-6 {
+        text-decoration: none;
+        color: lightgrey;
+        padding-top: 25px;
+    }
+    /* START OF MEDIA QUERIES */
+    
+    @media all and (max-width: 580px) {
+        /* JUMBOTRON */
+        #brandImage {
+            display: none;
+        }
+        .jumbotron {
+            background-image: url(imgs/slices/header_bg.jpg);
+            background-size: 50% 50% cover;
+            font-family: sans-serif;
+        }
+        #topNav {
+            margin-top: -40px;
+        }
+        #brandImage {
+            height: 20px;
+            width: 20px;
+            margin-left: 8px;
+        }
+        .jumbotron img {
+            height: 100px;
+            width: 100px;
+        }
+        .center-block {
+            padding-top: 40px;
+        }
+        .display-6 {
+            color: #FFFFFF;
+            text-align: center;
+            padding-top: 40px;
+            font-size: 20px;
+        }
+        .jumbotron .my-4 {
+            width: 37%;
+            background-color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+        /* END OF JUMBOTRON */
+        /* COMPANY INFO */
+        #companyInfo {
+            margin-top: 10px;
+            padding-bottom: -20px;
+        }
+        .col-sm-4 .my-4 {
+            border-top: 0;
+            height: 0;
+        }
+        .col-sm-4 h3 {
+            color: #286191;
+            font-weight: 100;
+            font-size: 80%;
+        }
+        .col-sm-8 p {
+            font-size: 20px;
+            color: #3A5568;
+            font-weight: 200;
+            font-size: 80%;
+        }
+        /* END COMPANY INFO */
+        /* GRID */
+        #gridNav {
+            background-image: url(imgs/clients_bg.jpg);
+            background-size: 50% 50% cover;
+            margin-top: 20px;
+            padding-bottom: 0;
+        }
+        .container-title {
+            text-align: center;
+            padding: 30px;
+        }
+        #gridNav h2 {
+            color: #FFFFFF;
+            font-size: 90%;
+        }
+        .container-grid li {
+            display: inline-block;
+            padding: 7px;
+        }
+        .container-grid img {
+            width: 60px;
+            height: 60px;
+            opacity: 0.9;
+        }
+        /* END OF GRID */
+        /* CONTACT */
+        .col-sm-7 {
+            color: #1E2F3E;
+        }
+        .col-sm-7 h3 {
+            font-size: 90%;
+        }
+        .col-sm-7 p {
+            font-weight: 300;
+            margin: 10px 0 5px 0;
+            font-size: 90%;
+        }
+        #contact a {
+            text-decoration: none;
+            color: #3A5568;
+            font-weight: bold;
+            font-size: 90%;
+        }
+        #contact {
+            padding: 20px 0 20px 0;
+            margin: 0 20px 0 20px;
+        }
+        input {
+            background-color: #F2F3F3;
+            border: none;
+            border-bottom: 5px solid #E7ECEF;
+            display: block;
+            width: 90%;
+            padding: 10px 0 10px 5px;
+            margin-top: 10px;
+            font-size: 90%;
+        }
+        button {
+            margin-top: 20px;
+            border: none;
+            background-color: #286191;
+            color: #FFFFFF;
+            text-align: center;
+            width: 70%;
+            padding: 10px 0 10px 5px;
+        }
+        .form {
+            background-color: #F2F3F3;
+            border: none;
+            border-bottom: 5px solid #E7ECEF;
+            display: block;
+            width: 90%;
+            padding: 10px 0 10px 5px;
+            margin-top: 20px;
+            font-size: 90%;
+        }
+        /* END CONTACT */
+        /* FOOTER */
+        footer {
+            height: 40px;
+            width: 100%;
+            background-color: #0D171F;
+            text-align: center;
+        }
+        .col-md-6 {
+            text-decoration: none;
+            color: lightgrey;
+            padding-top: 25px;
+            font-size: 10px;
+            display: inline-block;
+                
+        }
+        /* END OF FOOTER */
+    }
